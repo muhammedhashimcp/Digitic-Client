@@ -203,8 +203,7 @@ const SingleProduct = () => {
 									<h3 className="product-heading">
 										Product Link:
 									</h3>
-									<a
-										href="javascript:void(0);"
+									<button
 										onClick={() => {
 											copyToClipboard(
 												'https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg'
@@ -212,7 +211,7 @@ const SingleProduct = () => {
 										}}
 									>
 										Copy Product Link
-									</a>
+									</button>
 								</div>
 							</div>
 						</div>
