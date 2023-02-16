@@ -5,7 +5,6 @@ import BlogCard from "../components/BlogCard";
 import ProductCard from "../components/ProductCard";
 import SpecialProduct from "../components/SpecialProduct";
 import Container from "../components/Container";
-// import { services } from "../utils/Data";
 
 const Home = () => {
   return (
